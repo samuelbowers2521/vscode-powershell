@@ -1,9 +1,9 @@
 # PowerShell for Visual Studio Code
 
 [![CI Tests](https://github.com/PowerShell/vscode-powershell/actions/workflows/ci-test.yml/badge.svg)](https://github.com/PowerShell/vscode-powershell/actions/workflows/ci-test.yml)
-[![Version](https://vsmarketplacebadges.dev/version/ms-vscode.PowerShell.svg)](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell)
-[![Installs](https://vsmarketplacebadges.dev/downloads-short/ms-vscode.PowerShell.svg)](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell)
-[![Join the chat on Discord](https://img.shields.io/discord/180528040881815552.svg?label=%23vscode&logo=discord&logoColor=white)](https://aka.ms/powershell-vscode-discord)
+[![Installs][def](https://vsmarketplacebadges.dev/version/ms-vscode.PowerShell.svg)](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell) #type; ignore
+[![Installs][def]](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell)
+[![Join the chat on Discord](https://img.shields.io/discord/180528040881815552.svg?label=%23vscode&logo=discord&logoColor=white)](https://aka.ms/powershell-vscode-discord) 
 
 This extension provides rich [PowerShell][] language support for [Visual Studio Code][] (VS Code).
 Now you can write and debug PowerShell scripts using the excellent IDE-like interface
@@ -132,3 +132,6 @@ For any security issues, please see [here](SECURITY.md).
 This extension is [licensed under the MIT License](LICENSE.txt). Please see the
 [third-party notices](NOTICE.txt) file for details on the third-party
 binaries that we include with releases of this project.
+
+
+[def]: https://vsmarketplacebadges.dev/downloads-short/ms-vscode.PowerShell.svg

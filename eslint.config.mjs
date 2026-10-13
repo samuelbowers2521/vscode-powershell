@@ -1,6 +1,9 @@
-import eslint from "@eslint/js";
+import eslint from "@eslint/js"; 
+// @ts-ignore
 import eslintConfigPrettier from "eslint-config-prettier/flat";
+// @ts-ignore
 import { defineConfig } from "eslint/config";
+// @ts-ignore
 import tseslint from "typescript-eslint";
 
 export default defineConfig(
@@ -12,6 +15,7 @@ export default defineConfig(
         languageOptions: {
             parserOptions: {
                 projectService: true,
+                // @ts-ignore
                 tsconfigRootDir: import.meta.dirname,
             },
         },

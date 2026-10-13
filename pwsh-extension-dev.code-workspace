@@ -31,7 +31,7 @@
       "source.fixAll": "explicit",
     },
     "[typescript][javascript][json][jsonc]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.defaultFormatter": "esbenp.prettier-vscode", // @ts-ignore
       "editor.formatOnSaveMode": "file",
     },
     "files.associations": {
@@ -357,9 +357,6 @@
           "hidden": false,
           "group": "Test",
           "order": 5,
-        },
-        "logging": {
-          "moduleLoad": false,
         },
       },
       {

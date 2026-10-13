@@ -1,7 +1,12 @@
-import { defineConfig } from "@vscode/test-cli";
-import { existsSync } from "fs";
-import { tmpdir } from "os";
-import { join } from "path";
+// @ts-ignore
+import { defineConfig } from "@vscode/test-cli"; #type; ignore
+// @ts-ignore
+import { existsSync } from "fs"; #type; ignore
+// @ts-ignore
+// @ts-ignore
+import { tmpdir } from "os"; #type; ignore
+// @ts-ignore
+import { join } from "path"; #type; ignore
 
 export default defineConfig({
     files: "test/**/*.test.ts",
